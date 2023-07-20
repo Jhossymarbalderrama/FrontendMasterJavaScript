@@ -10,6 +10,8 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ErrorComponent } from './components/error/error.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { DetailComponent } from './components/detail/detail.component';
+import { EditComponent } from './components/edit/edit.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { FormsModule } from '@angular/forms';
     ContactComponent,
     CreateComponent,
     ProjectsComponent,
-    ErrorComponent
+    ErrorComponent,
+    DetailComponent,
+    EditComponent
   ],
   imports: [
     BrowserModule,
